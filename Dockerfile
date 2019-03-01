@@ -18,7 +18,7 @@ RUN apk add python3 && \
   rm -r /root/.cache
 
 # Install AWS CLI
-RUN pip install awscli airmail==0.0.7
+RUN pip install awscli airmail==0.0.8
 
 #  Clean up
 RUN rm -rf /tmp/* && \
